@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Linda",
+        "occupation": "teacher",
+        "testimonial": "Linda was pleased with the excellent customer service provided by this insurance company."
+      }
+,
+{
+    "name": "James",
+    "occupation": "freelance writer",
+    "testimonial": "James had a positive experience with this insurance company's claim handling process."
+  }
+,  
+{
+    "name": "Michelle",
+    "occupation": "stay-at-home mom",
+    "testimonial": "Michelle appreciated the affordable premiums and reliable coverage provided by this insurance company."
+  }
+  
+]
