@@ -8,3 +8,9 @@ html , body{
 @tailwind components;
 @tailwind utilities;
 
+.google{
+  background-color: #ff3e2cfb;
+}
+.facebook{
+  background-color: #1773ea;
+}

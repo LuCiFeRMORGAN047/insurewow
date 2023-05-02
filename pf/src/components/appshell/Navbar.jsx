@@ -21,9 +21,11 @@ const Navbar = () => {
             <li className='hover:text-green-500 cursor-pointer transition-all delay-40 hover:border-b-2 border-green-400  '>Services</li>
             <li className='hover:text-green-500 cursor-pointer transition-all delay-40 hover:border-b-2 border-green-400  '>Contact Us</li>
             <li className=''>
+              <Link to={'/signin'}>
+              
               <button className='bg-gradient-to-r text-sm font-medium  from-green-400 to-green-500 p-3  rounded-3xl hover:cursor-pointer text-neutral-700  hover:scale-[1.04] active:scale-[0.99] w-[6rem] '>
                 Sign in
-              </button>
+              </button></Link>
             </li>
             </ul>    
     

@@ -9,6 +9,7 @@ import Consult from '../components/index/Consult'
 
 
 const Index = () => {
+  
   return (
    <>
    <Hero/>

@@ -5,7 +5,7 @@ import Index from './pages/Index.jsx'
 import {BrowserRouter, Route, Routes, useLocation} from 'react-router-dom'
 import Appshell from './components/appshell/Appshell.jsx'
 import Dashboard from './pages/Dashboard'
-
+import SignIn from './pages/SignIn'
   const Rts = [
     {
       path : '/',
@@ -16,11 +16,16 @@ const APP_RTS = [
   {
     path : '/app/dashboard',
     element : <Dashboard/>
-  }
+  },
+  
 ]
  function Insure(){
   const {pathname} = useLocation()
-  if(pathname.startsWith('/app')){
+  if(pathname.startsWith('/app') || pathname.startsWith('/signin')){
+    APP_RTS.push({
+      path : '/signin',
+      element : <SignIn/>
+    })
     return(<Routes>
           {
             APP_RTS.map((props,i)=>(

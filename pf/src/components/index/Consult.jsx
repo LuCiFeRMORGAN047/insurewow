@@ -17,9 +17,9 @@ const Consult = () => {
            <p className=' font-normal text-sm text-gray-600 '>
                 call us now
            </p>
-           <span className='bg-green-500 h-[4rem]  hover:cursor-pointer p-3 rounded-2xl w-[4rem] grid
+           <span className='bg-green-500 h-[3rem] hover:cursor-pointer mt-2 p-3 rounded-2xl w-[3rem] grid
             place-content-center'>
-           <FiPhoneCall  fill='white' color='white' size={30}/>
+           <FiPhoneCall  fill='white' color='white' size={20}/>
            </span>
            </div>
         </div>
@@ -34,9 +34,9 @@ const Consult = () => {
            <p className=' font-normal  text-sm text-gray-600'>
                 call us now
            </p>
-           <span className='bg-green-500 h-[4rem] hover:cursor-pointer p-3 rounded-2xl w-[4rem] grid
+           <span className='bg-green-500 h-[3rem] hover:cursor-pointer mt-2 p-3 rounded-2xl w-[3rem] grid
             place-content-center'>
-           <FiPhoneCall  fill='white' color='white' size={30}/>
+           <FiPhoneCall  fill='white' color='white' size={20}/>
            </span>
            </div>
         </div>
