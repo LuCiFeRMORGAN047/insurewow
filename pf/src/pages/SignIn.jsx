@@ -2,11 +2,12 @@ import React from 'react'
 import gg from '../assets/gg.gif'
 import { Link } from 'react-router-dom'
 import {BiShieldPlus} from 'react-icons/bi'
-import {BsGoogle ,BsFacebook} from 'react-icons/bs'
+import {FcGoogle} from 'react-icons/fc'
+import ff from '../assets/facebook.png'
 const SignIn = () => {
   return (
     <div className=' bg-white flex w-full h-[100vh]'>
-    <div className='flex-[1] p-3'>
+    <div className='flex-[1] p-3 pl-10'>
     <Link to={'/'}>
     <div className=' mt-3 pl-8 text-2xl items-center bg-gradient-to-r bg-clip-text text-transparent from-green-600 to-green-800 bg- font-semibold  flex cursor-pointer  '>
         <BiShieldPlus color='green'   size={35}/>
@@ -29,7 +30,7 @@ const SignIn = () => {
          <label className='text-md text-gray-700'>Password</label>
          <input type='password' name='password' id='password' className=' bg-gray-100 focus:outline-none w-[25rem]   rounded-md border-0 px-3.5 py-2 text-neutral-900 shadow-sm ring-1  ring-inset ring-neutral-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-emerald-600 sm:text-sm sm:leading-6' placeholder='*******'/>
     </div>
-    <button className='active:scale-[0.99] font-light tracking-wide bg-emerald-500 rounded-xl   p-2 w-[25rem] '>
+    <button className='active:scale-[0.99] font-light tracking-wide text-white bg-emerald-500 rounded-xl   p-2 w-[25rem] '>
         Sign In
     </button>
     <p className='text-sm  '>
@@ -40,16 +41,19 @@ const SignIn = () => {
     
     </div>
     <span className=' font-semibold pl-[7rem] mt-3 flex items-center gap-x-2'><hr className=' border-1 border-neutral-800 w-[8rem]'/>OR<hr className=' border-1 border-neutral-800 w-[8rem]'/></span>
-    <button className='gap-x-2 mt-2 font-normal  text-gray-900 google ml-[9rem]  rounded-lg flex items-center justify-center active:scale-[0.99]   p-2 w-[15rem]'>
-        <BsGoogle color='white' />
-        Sign in with Google
-    </button>
-    <button className='gap-x-2 mt-3 font-normal text-gray-900 facebook ml-[9rem]  rounded-lg flex items-center justify-center active:scale-[0.99]   p-2 w-[15rem]'>
-        <BsFacebook color='white' />
-        Sign in with Facebook
-    </button>
+       <div className='  mt-2 justify-center -ml-[5rem] flex items-center gap-x-2'>
+       <div className=' border border-neutral-800 hover:grayscale-0 transition-grayscale delay-250 hover:cursor-pointer  rounded-full p-1 grayscale  '>
+        <FcGoogle  size={35}  />
+        
+        </div>
+        <div className='border border-neutral-950 rounded-full p-1 grayscale hover:grayscale-0 hover:cursor-pointer filter  transition-grayscale delay-250'>
+            <img  className='w-8' src={ff} />
+              </div>
+        
+        </div> 
+    
     </div>
-        <img src={gg}/>
+        <img className='mr-[3rem]' src={gg}/>
         </div>
   )
 }
