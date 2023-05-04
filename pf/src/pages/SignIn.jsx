@@ -9,7 +9,7 @@ const SignIn = () => {
     <div className=' bg-white flex w-full h-[100vh]'>
     <div className='flex-[1] p-3 pl-10'>
     <Link to={'/'}>
-    <div className=' mt-3 pl-8 text-2xl items-center bg-gradient-to-r bg-clip-text text-transparent from-green-600 to-green-800 bg- font-semibold  flex cursor-pointer  '>
+    <div className=' mt-3 pl-8 text-2xl items-center bg-gradient-to-r bg-clip-text text-transparent from-green-600 to-green-800 font-semibold  flex cursor-pointer  '>
         <BiShieldPlus color='green'   size={35}/>
         <span>
         Insurewow

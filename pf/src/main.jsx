@@ -13,7 +13,7 @@ import Contactus from './pages/ContactUs'
       element : <Index/>
     },
     {
-      path:'/ContactUs',
+      path:'/contact-us',
       element:<Contactus/>
 
     }
