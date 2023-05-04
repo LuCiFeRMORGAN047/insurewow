@@ -8,7 +8,7 @@ import {motion} from 'framer-motion'
 const TopComp = () => {
   return (
     <div className='h-[20rem] flex flex-col items-center bg-slate-100 '>
-            <h1 className='mt-12 font-semibold text-4xl bg-gradient-to-r  from-green-500 to-green-700  h-[4.5rem] bg-clip-text text-transparent'>Trusted By Top Companies</h1>
+            <h1 className='mt-12 font-semibold text-5xl bg-gradient-to-r  from-green-500 to-green-700  h-[4.5rem] bg-clip-text text-transparent'>Trusted By Top Companies</h1>
             <div className='flex mt-12 gap-x-10'>
                 {
                     comps.map((e,i)=>{
