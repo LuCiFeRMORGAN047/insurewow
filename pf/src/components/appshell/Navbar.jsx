@@ -15,7 +15,7 @@ const Navbar = () => {
   }, [pathname]);
 
   return (
-    <div className="absolute flex justify-between h-fit items-center z-10 inset-0 p-3">
+    <div className={`${pathname!=="/" ? "relative inset-0" : "absolute"} flex justify-between h-fit items-center z-10 inset-0 p-3`}>
       <Link to={'/'}>
         <div id="logo" className={clas}>
           <BiShieldPlus color={pathname === '/contact-us' ? 'green' : "white"} size={40} />
