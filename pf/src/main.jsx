@@ -6,10 +6,16 @@ import {BrowserRouter, Route, Routes, useLocation} from 'react-router-dom'
 import Appshell from './components/appshell/Appshell.jsx'
 import Dashboard from './pages/Dashboard'
 import SignIn from './pages/SignIn'
+import Contactus from './pages/ContactUs'
   const Rts = [
     {
       path : '/',
       element : <Index/>
+    },
+    {
+      path:'/ContactUs',
+      element:<Contactus/>
+
     }
   ]
 const APP_RTS = [
